@@ -1,7 +1,7 @@
-package com.fg.tlt_tech.mixin.thermal;
+package com.c2h6s.thermal_parallel.mixin.thermal;
 
 import cofh.lib.common.inventory.ItemStorageCoFH;
-import com.fg.tlt_tech.util.IItemStorageCoFHMixin;
+import com.c2h6s.thermal_parallel.util.mixin.IItemStorageCoFHMixin;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;

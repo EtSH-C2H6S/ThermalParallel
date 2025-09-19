@@ -1,4 +1,4 @@
-package com.fg.tlt_tech.util;
+package com.c2h6s.thermal_parallel.util.mixin;
 
 public interface IAugmentableBlockEntityMixin {
     int tlt_tech$getParallel();

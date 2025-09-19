@@ -1,0 +1,7 @@
+{
+  "info.thermal.augment.attr.MachineParallel": "最大并行数",
+
+  "item.thermal_parallel.argument_parallel": "并行配方逻辑适配器",
+  "item.thermal_parallel.argument_parallel_2": "并行任务发信模块",
+  "item.thermal_parallel.argument_parallel_3": "并行运算处理单元"
+}

@@ -1,0 +1,7 @@
+{
+  "info.thermal.augment.attr.MachineParallel": "Parallel Tasks",
+
+  "item.thermal_parallel.argument_parallel": "Parallel Logic Adapter",
+  "item.thermal_parallel.argument_parallel_2": "Parallel Task Provider",
+  "item.thermal_parallel.argument_parallel_3": "Parallel Calculating Processor"
+}

@@ -5,6 +5,11 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "thermal_parallel.refmap.json",
   "mixins": [
+    "thermal.AugmentableBlockEntityMixin",
+    "thermal.ItemStorageCoFHMixin",
+    "thermal.MachineBlockEntityMixin",
+    "thermal.Reconfigurable4WayBlockEntityMixin",
+    "thermal.ThermalAugmentRulesMixin"
   ],
   "client": [
   ],

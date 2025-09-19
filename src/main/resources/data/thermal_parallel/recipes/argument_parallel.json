@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "thermal:flag",
+      "flag": "machine_augments"
+    }
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:plates/bronze"
+    },
+    "L": {
+      "tag": "forge:gears/signalum"
+    },
+    "X": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "pattern": [
+    " L ",
+    "EXE",
+    " L "
+  ],
+  "result": {
+    "item": "thermal_parallel:argument_parallel"
+  },
+  "show_notification": true
+}
