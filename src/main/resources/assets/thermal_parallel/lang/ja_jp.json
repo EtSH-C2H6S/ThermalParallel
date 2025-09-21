@@ -1,0 +1,7 @@
+{
+  "info.thermal.augment.attr.MachineParallel": "並列処理",
+
+  "item.thermal_parallel.argument_parallel": "並列論理適合",
+  "item.thermal_parallel.argument_parallel_2": "並列処理提供",
+  "item.thermal_parallel.argument_parallel_3": "並列計算プロセッサ"
+}
