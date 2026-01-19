@@ -24,7 +24,7 @@ public class ItemStorageCoFHMixin implements IItemStorageCoFHMixin {
 
     @Inject(at = @At("RETURN"),method = "getSlotLimit",cancellable = true)
     public void modifyItemStorage(int slot, CallbackInfoReturnable<Integer> cir){
-        if (tlt_tech$parallel>0){
+        if (tlt_tech$parallel>0&&cir.getReturnValueI()>1){
             cir.setReturnValue(cir.getReturnValueI()*(tlt_tech$parallel+1));
         }
     }
