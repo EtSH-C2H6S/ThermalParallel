@@ -1,10 +1,10 @@
 package com.c2h6s.thermal_parallel.mixin.thermal;
 
 import cofh.core.util.helpers.AugmentableHelper;
-import cofh.lib.common.energy.EnergyStorageCoFH;
-import cofh.lib.common.fluid.ManagedTankInv;
-import cofh.lib.common.inventory.ManagedItemInv;
-import cofh.thermal.lib.common.block.entity.AugmentableBlockEntity;
+import cofh.lib.energy.EnergyStorageCoFH;
+import cofh.lib.fluid.ManagedTankInv;
+import cofh.lib.inventory.ManagedItemInv;
+import cofh.thermal.lib.block.entity.AugmentableBlockEntity;
 import com.c2h6s.thermal_parallel.ThermalParallelConfig;
 import com.c2h6s.thermal_parallel.util.TePaConstants;
 import com.c2h6s.thermal_parallel.util.mixin.IAugmentableBlockEntityMixin;

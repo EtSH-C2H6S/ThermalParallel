@@ -140,7 +140,6 @@ repositories {
     //     dir 'libs'
     // }
     maven { url 'https://maven.covers1624.net/' }
-
 }
 
 dependencies {
@@ -165,10 +164,9 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-    implementation fg.deobf("com.teamcofh:thermal_core:1.20.1-11.0.6.24+")
-    implementation fg.deobf("com.teamcofh:cofh_core:1.20.1-11.0.2.56+")
-    implementation fg.deobf("com.teamcofh:thermal_expansion:1.20.1-11.0.1.29+")
-
+    implementation fg.deobf("com.teamcofh:thermal_core:1.19.2-10.3.0.+")
+    implementation fg.deobf("com.teamcofh:cofh_core:1.19.2-10.3.0.+")
+    implementation fg.deobf("com.teamcofh:thermal_expansion:1.19.2-10.3.0.+")
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
 }

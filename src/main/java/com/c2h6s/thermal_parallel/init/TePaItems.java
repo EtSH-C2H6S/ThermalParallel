@@ -1,7 +1,8 @@
 package com.c2h6s.thermal_parallel.init;
 
 import cofh.core.util.helpers.AugmentDataHelper;
-import cofh.thermal.lib.common.item.AugmentItem;
+import cofh.thermal.lib.common.ThermalItemGroups;
+import cofh.thermal.lib.item.AugmentItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,7 +15,7 @@ import static com.c2h6s.thermal_parallel.util.TePaConstants.*;
 
 public class TePaItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
-    public static final RegistryObject<AugmentItem> AUGMENT_PARALLEL_1 = ITEMS.register("argument_parallel",()->new AugmentItem(new Item.Properties(), AugmentDataHelper.builder()
+    public static final RegistryObject<AugmentItem> AUGMENT_PARALLEL_1 = ITEMS.register("argument_parallel",()->new AugmentItem(new Item.Properties().tab(ThermalItemGroups.THERMAL_ITEMS), AugmentDataHelper.builder()
             .type(TAG_AUGMENT_TYPE_MACHINE)
             .mod(TAG_MACHINE_PARALLEL,1).build()
     ));

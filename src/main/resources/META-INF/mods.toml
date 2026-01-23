@@ -25,20 +25,20 @@ side = "BOTH"
 [[dependencies."${mod_id}"]]
 modId = "cofh_core"
 mandatory = true
-versionRange = "[11.0.0,11.1.0)"
+versionRange = "[10.3.0,11.0.0)"
 ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies."${mod_id}"]]
 modId = "thermal"
 mandatory = true
-versionRange = "[11.0.3,11.1.0)"
+versionRange = "[10.3.0,11.0.0)"
 ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies."${mod_id}"]]
 modId = "thermal_expansion"
 mandatory = true
-versionRange = "[11.0.1,11.1.0)"
+versionRange = "[10.3.0,11.0.0)"
 ordering = "AFTER"
 side = "BOTH"

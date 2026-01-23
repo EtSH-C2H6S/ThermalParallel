@@ -1,6 +1,6 @@
 package com.c2h6s.thermal_parallel.mixin.thermal;
 
-import cofh.lib.common.inventory.ItemStorageCoFH;
+import cofh.lib.inventory.ItemStorageCoFH;
 import com.c2h6s.thermal_parallel.util.mixin.IItemStorageCoFHMixin;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;

@@ -1,6 +1,6 @@
 package com.c2h6s.thermal_parallel;
 
-import cofh.core.common.config.IBaseConfig;
+import cofh.core.config.IBaseConfig;
 import com.c2h6s.thermal_parallel.util.TePaConstants;
 import net.minecraftforge.common.ForgeConfigSpec;
 

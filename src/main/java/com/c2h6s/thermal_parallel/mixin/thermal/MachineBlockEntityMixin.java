@@ -1,7 +1,7 @@
 package com.c2h6s.thermal_parallel.mixin.thermal;
 
-import cofh.thermal.lib.common.block.entity.MachineBlockEntity;
-import cofh.thermal.lib.common.block.entity.Reconfigurable4WayBlockEntity;
+import cofh.thermal.lib.block.entity.MachineBlockEntity;
+import cofh.thermal.lib.block.entity.Reconfigurable4WayBlockEntity;
 import cofh.thermal.lib.util.recipes.MachineProperties;
 import com.c2h6s.thermal_parallel.util.TePaConstants;
 import com.c2h6s.thermal_parallel.util.mixin.IAugmentableBlockEntityMixin;
@@ -35,7 +35,7 @@ public abstract class MachineBlockEntityMixin extends Reconfigurable4WayBlockEnt
 
     @Shadow protected int process;
 
-    @Inject(method = "tickServer",at = @At(value = "INVOKE", target = "Lcofh/thermal/lib/common/block/entity/MachineBlockEntity;transferOutput()V",ordinal = 0))
+    @Inject(method = "tickServer",at = @At(value = "INVOKE", target = "Lcofh/thermal/lib/block/entity/MachineBlockEntity;transferOutput()V",ordinal = 0))
     public void addParallelLogic(CallbackInfo ci){
         int parallel = ((IAugmentableBlockEntityMixin)this).tlt_tech$getParallel();
         if (parallel>0) {

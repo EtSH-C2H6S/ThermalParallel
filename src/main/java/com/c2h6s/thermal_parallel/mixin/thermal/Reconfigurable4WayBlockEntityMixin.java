@@ -1,7 +1,7 @@
 package com.c2h6s.thermal_parallel.mixin.thermal;
 
-import cofh.thermal.lib.common.block.entity.AugmentableBlockEntity;
-import cofh.thermal.lib.common.block.entity.Reconfigurable4WayBlockEntity;
+import cofh.thermal.lib.block.entity.AugmentableBlockEntity;
+import cofh.thermal.lib.block.entity.Reconfigurable4WayBlockEntity;
 import com.c2h6s.thermal_parallel.ThermalParallelConfig;
 import com.c2h6s.thermal_parallel.util.TePaConstants;
 import com.c2h6s.thermal_parallel.util.mixin.IAugmentableBlockEntityMixin;
