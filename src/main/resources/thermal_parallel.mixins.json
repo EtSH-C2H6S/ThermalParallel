@@ -8,6 +8,7 @@
     "thermal.AugmentableBlockEntityMixin",
     "thermal.ItemStorageCoFHMixin",
     "thermal.MachineBlockEntityMixin",
+    "thermal.MathHelperMixin",
     "thermal.Reconfigurable4WayBlockEntityMixin",
     "thermal.ThermalAugmentRulesMixin"
   ],
