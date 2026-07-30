@@ -50,7 +50,7 @@ public abstract class MachineBlockEntityMixin extends Reconfigurable4WayBlockEnt
 
     @Unique
     private void thermal_parallel$parallelLogic(){
-        if (TePaConstants.Config.PARALLEL_INCREASE_ENERGY_CONSUMPTION){
+        if (TePaConstants.Config.PARALLEL_INCREASE_ENERGY_CONSUMPTION&&processMax>0){
             if (energyStorage.getEnergyStored() < processMax) return;
             energyStorage.modify(-processMax);
         }
